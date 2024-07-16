@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        /* ... (previous styles remain unchanged) ... */
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer button {
+            background-color: #555;
+            color: #fff;
+            padding: 8px 16px;
+            margin: 0 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ... (previous content remains unchanged) ... -->
+
+    <footer>
+        <button onclick="showFAQ()">FAQ</button>
+        <button onclick="showContacts()">CONTACTS</button>
+        <button onclick="showTerms()">Terms</button>
+    </footer>
+
+    <!-- JavaScript functions for demonstration purposes -->
+    <script>
+        function showFAQ() {
+            alert('FAQ section will be displayed.');
+        }
+
+        function showContacts() {
+            alert('CONTACTS section will be displayed.');
+        }
+
+        function showTerms() {
+            alert('Terms section will be displayed.');
+        }
+    </script>
+
+</body>
+</html>

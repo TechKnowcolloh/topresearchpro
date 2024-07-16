@@ -1,0 +1,50 @@
+        .logo img {
+            width: 30px;
+        }
+        .toggle {
+            display: inline;
+            font-size: 25px;
+        }
+        .nav{
+
+        
+        .close {
+            position: absolute;
+            right: 25px;
+            display: block;
+            font-size: 25px;
+            border-radius: 50%;
+        }
+        .close:hover {
+            background-color: #ffecef;  
+        }
+        .nav {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            background-color: #ffecef;
+            width: 60%;
+            height: 100vh;
+            padding: 24px;
+            z-index: 100;
+            transition: 0.5s;
+            border-radius: 0 0 0 50%;
+        }
+        .nav_list {
+            display: flex;
+            flex-direction: column;
+        }
+        .nav_item {
+            margin: 2rem 0;
+        }
+        .show {
+            right: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .items {
+            width: 100%;
+        }
+    }
